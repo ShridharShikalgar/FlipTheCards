@@ -1,0 +1,41 @@
+.commentContainer{
+    margin-top: 10px;
+}
+.commentContainer button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.Comments{
+ margin-top: 5px;
+    border: .1rem solid black;
+    display: flex;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.Comments h6{
+    position: absolute;
+    align-self: flex-end;
+    font-size: 1.5rem;
+}
+.commentInput{
+    width: 40%;
+    border-radius: 5px;
+    height: 100px;
+    padding-left:5px ;
+    font-size: 1.3rem;
+}
+.disabled{
+    opacity: .5;
+}
+input[type="text"]{
+    height: 35px;
+    width: 20%;
+    margin-right: 10px;
+}
